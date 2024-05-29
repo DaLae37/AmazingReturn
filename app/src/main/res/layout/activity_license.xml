@@ -49,8 +49,8 @@
             android:layout_height="50dp"
             android:layout_gravity="end"
             android:layout_margin="10dp"
-            android:background=""
-            android:contentDescription="Go MainActivity"
+            android:background="@color/white"
+            android:contentDescription="@string/MainActivity"
             android:scaleType="fitXY"
             android:src="@drawable/arrow" />
     </LinearLayout>

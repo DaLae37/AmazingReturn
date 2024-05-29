@@ -9,7 +9,6 @@
     android:orientation="vertical"
     tools:context=".LicenseActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,45 +19,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+
             android:fontFamily="@font/neodunggeunmopro_regular"
-            android:text="@string/app_name"
-            android:textAlignment="center"
+            android:text="@string/license"
             android:textColor="@color/black"
-            android:textSize="50sp" />
+            android:textSize="20sp" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3"
-        android:orientation="vertical">
-
-        <android.widget.Button
-            android:id="@+id/start"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:background="@drawable/button"
-            android:text="@string/start" />
-
-        <android.widget.Button
-            android:id="@+id/instruction"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="@drawable/button"
-            android:text="@string/instruction" />
 
-        <android.widget.Button
-            android:id="@+id/permission"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/button"
-            android:text="@string/permission" />
+            android:fontFamily="@font/neodunggeunmopro_regular"
+            android:text="@string/font_license"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -69,16 +44,15 @@
         android:orientation="vertical">
 
         <ImageButton
-            android:id="@+id/mainTOlicense"
+            android:id="@+id/instructionTOmain"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="end"
             android:layout_margin="10dp"
             android:background="@color/white"
-            android:contentDescription="@string/LicenseActivity"
+            android:contentDescription="@string/MainActivity"
             android:scaleType="fitXY"
-            android:src="@drawable/about" />
-
+            android:src="@drawable/arrow" />
     </LinearLayout>
 
 </LinearLayout>
